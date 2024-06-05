@@ -6,6 +6,7 @@ export const authConfig = {
     },
     callbacks: {
         authorized({ auth, request: { nextUrl } }) {
+            //! ログイン認証を有効にする場合、このコメントを解除する
             // const isLoggedIn = !!auth?.user;
             // const isOnDashboard = nextUrl.pathname.startsWith('/dashboard');
             // if (isOnDashboard) {
